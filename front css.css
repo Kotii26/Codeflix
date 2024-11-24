@@ -1,0 +1,142 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #141414;
+  color: #fff;
+}
+
+/* style para sa navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #141414;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e50914;
+}
+
+.menu a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.menu a:hover {
+  color: #e50914;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+/* para main Section */
+.main-section {
+  background: url('picture\ 1.jpg') no-repeat center center/cover;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.main-text {
+  max-width: 600px;
+}
+
+.main-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.main-text p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/*para sa button*/
+.btn-primary,
+.btn-secondary {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #e50914;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #444;
+  color: #fff;
+}
+
+/* sa rows */
+.content-row {
+  margin: 20px 10px;
+}
+
+.content-row h2 {
+  margin: 10px 20px;
+}
+/*css ng mga videos ng volleyball*/
+.valo {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  padding: 10px 20px;
+}
+
+.valo img {
+  margin: 0 10px;
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.valo img:hover {
+  transform: scale(1.1);
+}
+
+.valo video {
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.valo video:hover {
+  transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #141414;
+  font-size: 0.9rem;
+  color: #777;
+}

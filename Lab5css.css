@@ -1,0 +1,94 @@
+.container2 {
+    padding: 100px;
+    padding-top: 1%;
+    padding-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 7em;
+    border-color: black;
+    background-color: 789DBC;
+    border-radius: 20px;
+    border: 10px black;
+    border: solid 3px;
+}
+
+body {
+    background-color: D6C0B3;
+}
+
+input {
+    background-color: FEF9F2;
+}
+
+label {
+    font-size: 20px;
+    font-family: 'dynapuff', sans-serif;
+    color: pink;
+    text-shadow:
+        3px 3px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+h1 {
+    margin-left: 10%;
+    font-size: 41px;
+    font-family: Sixtyfour Convergence, sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 15%;
+    font-family: 'dynapuff', sans-serif;
+    color: pink;
+    text-shadow:
+        5px 5px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.container1 {
+    padding: 25px;
+    margin-left: -1%;
+    margin-right: -8px;
+    margin-top: -1%;
+    background-color: 493628;
+
+}
+
+.field {
+    border-radius: 10px;
+    padding: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: -5px;
+    width: 50%;
+}
+
+.submit {
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(180, 16, 180);
+    color: white;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+form {
+    display: flex;
+}
+
+p {
+    font-size: larger;
+    border: solid 3px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5em;
+    background-color: white;
+}
