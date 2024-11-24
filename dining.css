@@ -1,0 +1,375 @@
+body {
+    align-items: center;
+    text-align: center;
+    background-color: #1E0342;
+}
+header {
+    background-image: url(429299764_680767147467650_3415997711090742656_n.png);
+    font-size: 300%;
+    align-items: center;  
+    background-position: center;
+    text-align: center;
+    color: aliceblue;
+    padding: -1%;
+    margin-top:-5%;
+    margin-right: -1%;
+    margin-left: -1%;
+    margin-bottom: -3%;
+    border: 16px darkblue;  
+    font-family: "Bungee Spice", sans-serif;
+}
+nav {
+  text-align: center;
+  align-items: center;
+}
+a{
+  font-size: 30px;
+  margin-top: 17px;
+  text-decoration: none;
+}
+ul a {
+  text-decoration: none; 
+  color: #121481; 
+  display: inline-block; 
+  padding: 10px; 
+  transition: transform 0.3s;
+}
+ul a:hover {
+  transform: scale(1.5);
+  color: rgb(255, 0, 0) ;
+}
+ul {
+  display: flex;
+  align-items: center ;
+  gap: 75px;
+  justify-content: center;
+  border: 5px solid #153448;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  margin-top: 2%;
+  margin-left: 0%;
+  margin-bottom: -5%;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav ul{
+  display: inline;
+  text-align: center; 
+ font-size: 90px;
+} 
+div h1 {
+    font-size: 50px;
+}
+div {
+    margin: 100px;
+    margin-left: 140px;
+    padding: 20px;
+    border: 10px;
+    text-align: center;
+    background-color:#0E46A3;
+    align-items: center; 
+}
+section {
+    border: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}   
+.koti {
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    height: max-content;
+    width: 100%;
+}
+.koti > div {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;    
+}
+.kotikots {
+    text-align: center;
+    display: flex;
+    gap: 40px;
+    height: max-content;
+    width: 100%;
+}
+.kotikots > div {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+}
+
+.arvin {
+    text-align: center;
+    display: flex;
+    gap: 40px;
+    height: max-content;
+    width: 100%;
+}
+.arvin > div {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+}
+.maincontainer1 {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.breeze-pic1 {
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+}
+.maincontainer1:hover .breeze-pic1{
+  transform: translateY(-50%) scale(1.1);
+}
+.breeze {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #E1F7F5;
+  padding: 10px;
+  transition: bottom 0.3s ease-in-out;
+  height: 400px;
+  opacity: 0;
+}
+.breeze1{
+  height: 500px;
+  bottom: -350px;  
+  transition: bottom 0.3s ease-in-out;
+  padding: 10px;
+  position: absolute;
+  color: #9AC8CD;
+  right: 5%;
+}
+.maincontainer1:hover .breeze {
+  bottom: 0;
+  opacity: 1;
+}
+.maincontainer1:hover .breeze1 {
+  bottom: 0;
+  opacity: 1;
+}
+.maincontainer2 {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.breeze-pic2 {
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  border-radius: 15px;
+}
+.maincontainer2:hover .breeze-pic2{
+  transform: translateY(-50%) scale(1.1);
+}
+.breezetu{
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #E1F7F5;
+  padding: 10px;
+  transition: bottom 0.3s ease-in-out;
+  height: 400px;
+  opacity: 0;
+}
+.breeze2{
+  height: 520px;
+  bottom: -350px;  
+  transition: bottom 0.3s ease-in-out;
+  padding: 10px;
+  position: absolute;
+  color: #9AC8CD;
+  right: 5%;
+}
+.maincontainer2:hover .breezetu {
+  bottom: 0;
+  opacity: 1;
+}
+.maincontainer2:hover .breeze2 {
+  bottom: 0;
+  opacity: 1;
+}
+.maincontainer3 {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.breeze-pic3 {
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  border-radius: 15px;
+}
+.maincontainer3:hover .breeze-pic3{
+  transform: translateY(-50%) scale(1.1);
+  
+}
+.breezetri{
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #E1F7F5;
+  padding: 10px;
+  transition: bottom 0.3s ease-in-out;
+  height: 400px;
+  opacity: 0;
+}
+.breeze3{
+  height: 520px;
+  bottom: -350px;  
+  transition: bottom 0.3s ease-in-out;
+  padding: 10px;
+  position: absolute;
+  color: #9AC8CD;
+  right: 6%;
+}
+.maincontainer3:hover .breezetri {
+  bottom: 0;
+  opacity: 1;
+}
+.maincontainer3:hover .breeze3 {
+  bottom: 0;
+  opacity: 1;
+}
+.maincontainer4 {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.breeze-pic4 {
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  border-radius: 15px;
+}
+.maincontainer4:hover .breeze-pic4{
+  transform: translateY(-50%) scale(1.1);
+}
+.breezepor{
+  position:absolute;
+  bottom:-100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #E1F7F5;
+  padding: 10px;
+  transition: bottom 0.3s ease-in-out;
+  height: 400px;
+  opacity: 0;
+}
+.breeze4{
+  height: 520px;
+  bottom: -350px; 
+  transition: bottom 0.3s ease-in-out;
+  padding: 10px;
+  position: absolute;
+  color: #9AC8CD;
+  right:2%;
+}
+.maincontainer4:hover .breezepor {
+  bottom: 0;
+  opacity: 1;
+}
+.maincontainer4:hover .breeze4 {
+  bottom: 0;
+  opacity: 1;
+}
+.maincontainer5 {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.breeze-pic5 {
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  border-radius: 15px;
+}
+.maincontainer5:hover .breeze-pic5{
+  transform: translateY(-50%) scale(1.1);
+}
+.breezepayb{
+  position:absolute;
+  bottom:-100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #E1F7F5;
+  padding: 10px;
+  transition: bottom 0.3s ease-in-out;
+  height: 400px;
+  opacity: 0;
+}
+.breeze5{
+  height: 520px;
+  bottom: -350px;  
+  transition: bottom 0.3s ease-in-out;
+  padding: 10px;
+  position: absolute;
+  color: #9AC8CD;
+  right: 14%;
+}
+.maincontainer5:hover .breezepayb {
+  bottom: 0;
+  opacity: 1;
+}
+.maincontainer5:hover .breeze5 {
+  bottom: 0;
+  opacity: 1;
+}
+.maincontainer6 {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.breeze-pic6 {
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  border-radius: 15px;
+}
+.maincontainer6:hover .breeze-pic6{
+  transform: translateY(-50%) scale(1.1);
+}
+.breezesix{
+  position:absolute;
+  bottom:-100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #E1F7F5;
+  padding: 10px;
+  transition: bottom 0.3s ease-in-out;
+  height: 400px;
+  opacity: 0;
+}
+.breeze6{
+  height: 520px;
+  bottom: -350px;  
+  transition: bottom 0.3s ease-in-out;
+  padding: 10px;
+  position: absolute;
+  color: #9AC8CD;
+  right: 20%;
+}
+.maincontainer6:hover .breezesix {
+  bottom: 0;
+  opacity: 1;
+}
+.maincontainer6:hover .breeze6 {
+  bottom: 0;
+  opacity: 1;
+}

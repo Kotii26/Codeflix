@@ -1,0 +1,194 @@
+    body {
+        color:black;
+        align-items: center;
+        text-align: center;
+        background-color:#948979;   
+    }
+    nav {
+        text-align: center;
+        align-items: center;
+    }
+    a{
+        font-size: 30px;
+        margin-top: 17px;
+        text-decoration: none;
+    }
+    ul a {
+        text-decoration: none; 
+        color: #121481; 
+        display: inline-block;  
+        padding: 10px; 
+        transition: transform 0.3s;
+      }
+      ul a:hover {
+        transform: scale(1.5);
+        color: rgb(255, 0, 0) ;
+      }
+    ul {
+        display: flex;
+        gap: 75px;
+        align-items: center ;
+        justify-content: center;
+        border: 5px solid #153448;
+        background-color: rgba(255, 255, 255, 0.5);
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
+        margin-top: 2%;
+        margin-left: 0%;
+        text-decoration: none;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    nav ul{
+        display: inline;
+        text-align: center; 
+       font-size: 90px;
+    }
+    .main{
+        margin-top: -150px;
+        margin-left: -1%; 
+        margin-right: -.5%; 
+    }
+    .titel{
+        font-family: "Bungee Spice", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 80px;
+        margin-left: 55%;
+        margin-top: 100px;
+        margin-bottom: 10px;
+    }
+    p{
+        font-family: "Lugrasimo", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+    header {
+        align-items: center;
+        background-color:#153448;
+        font-size: 250%;
+        align-items: center;
+        color:rgb(44, 105, 203);   
+        padding: 20px;
+        margin-bottom: -20px;
+        border-radius: 15px;
+        display: flex;
+    }
+
+    div {
+        margin: 100px;
+        margin-left: 80px;
+        padding: 60px;
+        border: 10px;   
+        text-align: center;
+        background-color:#3C5B6F;
+        align-items: center;
+        display: flex; 
+        border-radius: 15px; 
+    }
+    section {
+        color: black;
+        border: 5px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    h1{  
+        font-weight: 600;
+        font-style: normal;
+        font-size:60px;
+        margin-top: 50px;
+        margin-bottom: 60px;
+        stroke-width: 5px;
+        -webkit-text-stroke: 1px rgb(0, 0, 0);
+        font-family: "Nabla", system-ui;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+          "EDPT" 100,
+          "EHLT" 12;
+    }
+    @font-face {
+        font-family: holdon;
+        src: url(Hold\ On.otf);
+    }
+    .para{ 
+        font-size: 18px;
+        color: #F3F0CA;
+        border-radius: 15px;
+        box-shadow: 0 0 10px black;
+    }
+    h2 {
+        text-align: center;
+        margin-top: -50px;
+        margin-bottom: -20px;
+        font-family: "Lugrasimo", cursive;
+    }
+    .ohello {
+        text-align: center;
+        display: flex;
+        height: max-content;
+        width: 100%;
+        border-radius: 15px;
+        margin-bottom: -130px;
+        margin-top: -80px;
+    }
+    .ohello > div {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        box-shadow: 0 0 10px black;
+    }
+    .ohello > div > img {
+        border: 8px solid rgb(40, 3, 95);
+        border-radius: 15px;
+        box-shadow: 0 0 10px black;
+    }
+    .ohello > div > img:hover{
+        transform: scale(1.4);
+        transition: transform 0.5s ease-in;
+    }
+    .hi { 
+        display: flex;  
+        border-radius: 15px;
+    }
+    .hi > div{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        box-shadow: 0 0 10px black;
+
+    }
+    .hi > div > img {
+        border: 15px solid rgb(40, 3, 95);
+        border-radius: 15px;
+    }
+    .hi > div > img:hover{
+        transform: scale(1.4);
+        transition: transform 0.5s ease-in-out;
+    }
+    .hilu {
+        display: flex;
+        border-radius: 15px;
+    }
+    .hilu > div {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        box-shadow: 0 0 10px black;
+        margin-top: 0px;
+    }
+    .hilu > div > img {
+        border: 15px solid rgb(40, 3, 95);
+        border-radius: 15px;
+    }
+    .hilu > div > img:hover{
+        transform: scale(1.4);
+        transition: transform 0.5s ease-in-out;
+    }
+    #huli {
+        margin-top: -40px;
+    }

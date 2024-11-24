@@ -1,0 +1,79 @@
+body {
+    background-color: antiquewhite;
+
+}
+@font-face {
+    font-family: holdon;
+    src: url(Hold\ On.otf);
+}
+header {
+    margin-bottom: 5%;
+    text-align: center;
+    background-color: #153448;
+    padding: 1%;
+    font-size: 40px;
+    margin-top: -1%;
+    margin-left: -1%;
+    margin-right: -.5%;
+    font-family: holdon;   
+    color:#E1AA74; 
+}
+.container{
+    display: flex;
+    text-align: center;
+    flex-direction: row; 
+    gap: 2%;
+    margin-bottom: 5%;
+    margin-left: 4%;
+}
+div{
+    border-radius: 10px;
+}
+.box{
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+}
+img{
+    display: block;
+    border-radius: 10px;
+}
+.box:hover{
+    transition: 1.5s ease-in-out ;
+    transform: scale(1.3)
+}
+ul {
+    display: block;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 5px solid #153448;
+    border-radius: 10px;
+    gap: 8%;
+    margin-top: -3%;
+    margin-bottom: 3%;
+    padding-right: 80px;
+    justify-content: center;
+    align-items: center ;
+}
+a{
+    font-size: 30px;
+    margin-top: 17px;
+    text-decoration: none;
+}
+ul a {
+    text-decoration: none; 
+    color: #121481; 
+    display: inline-block; 
+    padding: 10px; 
+    transition: transform 0.3s;
+  }
+  ul a:hover {
+    transform: scale(1.9);
+    color: rgb(255, 0, 0) ;
+  } 
+  .container2{
+    display: flex;
+    text-align: center;
+    flex-direction: row; 
+    gap: 2%;
+    margin-left: 4%;
+    margin-bottom: 3%;
+}
